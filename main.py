@@ -1,5 +1,10 @@
 from urllib.request import Request, urlopen
+"""
 
+fetch a random dad joke.
+
+was created inside the development branch.
+"""
 def fetch_random_dad_joke() -> str:
     req = Request(
         url="https://icanhazdadjoke.com/",
